@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Área 2 | Ciencias Biológicas, Químicas y de la Salud</title>
+<style>
+:root{--green:#23866b;--green-dark:#17644f;--mint:#e8f5ef;--blue:#eaf2fb;--purple:#eeeafa;--ink:#23342f;--muted:#60716b;--white:#fff;--line:#dce8e2}
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f7faf8;color:var(--ink);line-height:1.65}
+header{background:var(--white);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
+.nav{max-width:1100px;margin:auto;padding:14px 22px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+.brand{font-weight:800;color:var(--green-dark);letter-spacing:.2px}.brand span{color:#71827b;font-weight:500}
+nav{display:flex;gap:18px;flex-wrap:wrap}nav a{font-size:.92rem;color:var(--muted);text-decoration:none;font-weight:600}nav a:hover{color:var(--green)}
+.hero{background:linear-gradient(125deg,#e4f3eb 0%,#edf4fc 58%,#f0edfb 100%);padding:76px 22px 68px}
+.hero-inner{max-width:1100px;margin:auto;display:grid;grid-template-columns:1.35fr .65fr;gap:35px;align-items:center}
+.eyebrow{display:inline-block;background:#fff;color:var(--green-dark);padding:6px 12px;border-radius:30px;font-size:.82rem;font-weight:700}
+h1{font-size:clamp(2.2rem,5vw,3.7rem);line-height:1.12;margin:18px 0;color:#203d34}h1 span{color:var(--green)}
+.hero p{font-size:1.12rem;max-width:650px;color:#52665e;margin-bottom:25px}
+.btn{display:inline-block;background:var(--green);color:white;padding:11px 18px;border-radius:9px;text-decoration:none;font-weight:700}.btn:hover{background:var(--green-dark)}
+.hero-art{background:#fff;border-radius:24px;padding:26px;box-shadow:0 12px 35px #234b3514;text-align:center}
+.orbit{width:210px;height:210px;border-radius:50%;margin:auto;background:radial-gradient(circle at 50% 50%,#fff 0 23%,#d9efe4 24% 43%,#b7ddcc 44% 45%,#e8f1fb 46% 68%,#d8e7f5 69%);display:grid;place-items:center;font-size:4.4rem}
+.hero-art strong{display:block;margin-top:12px;color:var(--green-dark)}.hero-art small{color:var(--muted)}
+main{max-width:1100px;margin:auto;padding:20px 22px 65px}section{padding:48px 0;scroll-margin-top:80px}.section-head{max-width:720px;margin-bottom:24px}.kicker{color:var(--green);font-size:.78rem;font-weight:800;text-transform:uppercase;letter-spacing:1.2px}h2{font-size:2rem;line-height:1.2;margin:7px 0 10px;color:#263f36}.section-head p{color:var(--muted);margin:0}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.card{background:white;border:1px solid var(--line);border-radius:15px;padding:21px;box-shadow:0 5px 18px #294b3810}.card .emoji{font-size:1.8rem}.card h3{margin:9px 0 5px;font-size:1.13rem}.card p{color:var(--muted);font-size:.95rem;margin:0}.tint-green{background:var(--mint)}.tint-blue{background:var(--blue)}.tint-purple{background:var(--purple)}
+.callout{background:#edf6f1;border-left:4px solid var(--green);padding:17px 20px;border-radius:8px;color:#40594f;margin-top:20px}
+.subjects{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.subject{background:white;border:1px solid var(--line);padding:17px;border-radius:12px;display:flex;gap:13px}.subject b{display:block}.subject p{margin:3px 0 0;color:var(--muted);font-size:.92rem}.subject-icon{font-size:1.6rem}
+.career-groups{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.career{border-radius:15px;padding:22px;background:white;border:1px solid var(--line)}.career h3{margin:0 0 8px}.tags{display:flex;flex-wrap:wrap;gap:8px}.tag{background:#f0f5f2;border-radius:20px;padding:5px 10px;font-size:.86rem;color:#426052}
+.profile{display:grid;grid-template-columns:1fr 1fr;gap:18px}.profile ul{margin:8px 0 0;padding-left:20px;color:var(--muted)}.profile li{margin:5px 0}
+.fact{background:linear-gradient(120deg,#e7f4ed,#edf2fb);padding:25px;border-radius:16px;display:flex;gap:18px;align-items:center}.fact .big{font-size:2.5rem}.fact p{margin:0;color:#4d6259}
+details{background:#fff;border:1px solid var(--line);border-radius:10px;padding:14px 17px;margin:10px 0}summary{font-weight:700;cursor:pointer;color:#304b40}details p{color:var(--muted);margin:10px 0 0}
+.sources{font-size:.93rem;color:var(--muted)}.sources a{color:var(--green-dark)}footer{background:#203d34;color:#e9f4ee;padding:27px 22px;text-align:center}footer p{margin:4px;font-size:.9rem;color:#d0e2d8}
+@media(max-width:760px){.hero-inner{grid-template-columns:1fr}.hero-art{max-width:330px}.grid{grid-template-columns:1fr 1fr}.subjects,.career-groups,.profile{grid-template-columns:1fr}nav{gap:10px}.nav{align-items:flex-start;flex-direction:column}}
+@media(max-width:480px){.grid{grid-template-columns:1fr}.hero{padding-top:48px}nav a{font-size:.84rem}}
+</style>
+</head>
+<body>
+<header><div class="nav"><div class="brand">AULA ABIERTA <span>· Área 2</span></div><nav aria-label="Navegación principal"><a href="#inicio">Inicio</a><a href="#que-es">¿Qué es?</a><a href="#materias">Materias</a><a href="#carreras">Carreras</a><a href="#perfil">Perfil</a></nav></div></header>
+<div class="hero" id="inicio"><div class="hero-inner"><div><span class="eyebrow">Orientación académica · Preparatoria</span><h1>Explora el <span>Área 2</span></h1><p>Ciencias Biológicas, Químicas y de la Salud: un campo de estudio dedicado a comprender la vida, la materia, el cuerpo humano y el entorno que nos rodea.</p><a class="btn" href="#que-es">Conocer el área ↓</a></div><div class="hero-art"><div class="orbit">🧬</div><strong>La ciencia de la vida</strong><small>Observar · Investigar · Comprender</small></div></div></div>
+<main>
+<section id="que-es"><div class="section-head"><span class="kicker">01 · Introducción</span><h2>¿Qué es el Área 2?</h2><p>Es una de las áreas de conocimiento del bachillerato y agrupa disciplinas que estudian a los seres vivos, los procesos químicos y distintos aspectos de la salud. En el sistema de la UNAM se conoce como Área II: Ciencias Biológicas, Químicas y de la Salud.</p></div><div class="grid"><article class="card tint-green"><div class="emoji">🌱</div><h3>Biología</h3><p>Estudia los seres vivos, su estructura, funcionamiento, evolución y relación con el ambiente.</p></article><article class="card tint-blue"><div class="emoji">⚗️</div><h3>Química</h3><p>Analiza la materia, sus propiedades, composición y las transformaciones que experimenta.</p></article><article class="card tint-purple"><div class="emoji">🩺</div><h3>Ciencias de la salud</h3><p>Investiga el bienestar de las personas, la prevención de enfermedades y el cuidado de la salud.</p></article></div><div class="callout"><b>Importante:</b> la organización y las materias específicas pueden cambiar según la preparatoria y su plan de estudios. Esta página presenta una explicación general del área.</div></section>
+<section id="materias"><div class="section-head"><span class="kicker">02 · Aprendizaje</span><h2>Materias relacionadas</h2><p>Estas asignaturas ayudan a construir una base científica para continuar estudiando carreras del área.</p></div><div class="subjects">
+<div class="subject"><div class="subject-icon">🧫</div><div><b>Biología</b><p>Células, genética, evolución, biodiversidad y ecosistemas.</p></div></div>
+<div class="subject"><div class="subject-icon">⚗️</div><div><b>Química</b><p>Elementos, compuestos, reacciones y composición de la materia.</p></div></div>
+<div class="subject"><div class="subject-icon">🧲</div><div><b>Física</b><p>Movimiento, energía, fuerzas y fenómenos naturales.</p></div></div>
+<div class="subject"><div class="subject-icon">📐</div><div><b>Matemáticas</b><p>Razonamiento lógico, cálculo, medición y análisis de datos.</p></div></div>
+<div class="subject"><div class="subject-icon">🧠</div><div><b>Psicología</b><p>Procesos mentales, conducta y desarrollo humano.</p></div></div>
+<div class="subject"><div class="subject-icon">🌎</div><div><b>Temas ambientales y de salud</b><p>Relación entre ambiente, alimentación, prevención y bienestar.</p></div></div>
+</div></section>
+<section id="carreras"><div class="section-head"><span class="kicker">03 · Futuro académico</span><h2>¿Qué carreras puedes estudiar?</h2><p>El Área 2 se relaciona con muchas licenciaturas. Estos son algunos ejemplos, no una lista completa.</p></div><div class="career-groups">
+<div class="career tint-green"><h3>🩺 Salud y atención a personas</h3><div class="tags"><span class="tag">Medicina</span><span class="tag">Enfermería</span><span class="tag">Odontología</span><span class="tag">Fisioterapia</span><span class="tag">Optometría</span></div></div>
+<div class="career tint-blue"><h3>🧪 Química y laboratorio</h3><div class="tags"><span class="tag">Química</span><span class="tag">Farmacia</span><span class="tag">Química Farmacéutico Biológica</span><span class="tag">Bioquímica Diagnóstica</span></div></div>
+<div class="career tint-purple"><h3>🌿 Vida y ambiente</h3><div class="tags"><span class="tag">Biología</span><span class="tag">Ecología</span><span class="tag">Ciencias Ambientales</span><span class="tag">Ciencias Genómicas</span></div></div>
+<div class="career"><h3>🐾 Animales y alimentación</h3><div class="tags"><span class="tag">Medicina Veterinaria</span><span class="tag">Nutrición</span><span class="tag">Ingeniería en Alimentos</span><span class="tag">Ingeniería Agrícola</span></div></div>
+</div><div class="callout">Cada universidad ofrece distintas carreras y puede establecer requisitos propios de ingreso. Conviene revisar siempre su oferta académica oficial.</div></section>
+<section id="perfil"><div class="section-head"><span class="kicker">04 · ¿Es para ti?</span><h2>Habilidades e intereses recomendados</h2><p>No necesitas dominar todo desde el principio. Estas características pueden ayudarte a disfrutar y aprovechar el área.</p></div><div class="profile"><article class="card"><h3>🔎 Intereses</h3><ul><li>Curiosidad por los seres vivos y la naturaleza.</li><li>Interés por el cuerpo humano y la salud.</li><li>Gusto por los experimentos y la investigación.</li><li>Deseo de comprender cómo funciona el mundo.</li></ul></article><article class="card"><h3>💡 Habilidades que puedes desarrollar</h3><ul><li>Observación y pensamiento crítico.</li><li>Razonamiento lógico y análisis de datos.</li><li>Paciencia y atención a los detalles.</li><li>Trabajo en equipo y comunicación.</li></ul></article></div></section>
+<section id="campo"><div class="section-head"><span class="kicker">05 · Aplicación</span><h2>¿Dónde se puede trabajar?</h2><p>Las oportunidades dependen de la carrera, la especialización y la experiencia profesional.</p></div><div class="grid"><article class="card"><div class="emoji">🏥</div><h3>Hospitales y clínicas</h3><p>Atención, prevención, rehabilitación y promoción de la salud.</p></article><article class="card"><div class="emoji">🔬</div><h3>Laboratorios</h3><p>Análisis, investigación científica y desarrollo de productos.</p></article><article class="card"><div class="emoji">🌳</div><h3>Ambiente e investigación</h3><p>Conservación, monitoreo ambiental, educación y proyectos científicos.</p></article></div></section>
+<section id="datos"><div class="section-head"><span class="kicker">06 · Para recordar</span><h2>Un dato interesante</h2></div><div class="fact"><div class="big">🧬</div><p>El Área 2 no se limita a estudiar Medicina. También incluye disciplinas que investigan los alimentos, los animales, los ecosistemas, los medicamentos, la genética y muchos otros temas relacionados con la vida.</p></div></section>
+<section id="preguntas"><div class="section-head"><span class="kicker">07 · Repaso</span><h2>Preguntas frecuentes</h2></div>
+<details><summary>¿El Área 2 es solamente para quienes quieren estudiar Medicina?</summary><p>No. También se relaciona con Biología, Química, Veterinaria, Nutrición, Psicología, Ecología y otras carreras.</p></details>
+<details><summary>¿Se necesita ser bueno en Matemáticas?</summary><p>Es útil tener bases de Matemáticas porque se utilizan para analizar datos, resolver problemas y comprender procesos científicos. Es una habilidad que se puede fortalecer con práctica.</p></details>
+<details><summary>¿Todas las preparatorias tienen las mismas materias?</summary><p>No necesariamente. Las materias y su organización dependen del plan de estudios de cada institución.</p></details>
+</section>
+<section id="fuentes"><div class="section-head"><span class="kicker">08 · Consulta</span><h2>Fuentes de información</h2><p>Para ampliar la información, consulta estas páginas oficiales de la Universidad Nacional Autónoma de México:</p></div><ul class="sources"><li><a href="https://oferta.unam.mx/carreras.php?area=2" target="_blank" rel="noopener">Oferta Académica UNAM – Carreras del Área 2</a></li><li><a href="https://www.dgae-siae.unam.mx/educacion/carreras.php" target="_blank" rel="noopener">DGAE-UNAM – Catálogo de carreras por área</a></li><li><a href="https://dgire.unam.mx/index.php/instituciones/planes-bachillerato" target="_blank" rel="noopener">DGIRE-UNAM – Planes de bachillerato</a></li></ul></section>
+</main>
+<footer><strong>ÁREA 2 · CIENCIAS BIOLÓGICAS, QUÍMICAS Y DE LA SALUD</strong><p>Material educativo de orientación académica.</p></footer>
+</body>
+</html>
